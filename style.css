@@ -1,0 +1,12 @@
+body {
+  background-color: darkgrey;
+  overflow: hidden;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#tankCanvas {
+  background-color: #2a5;
+}
