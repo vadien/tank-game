@@ -8,7 +8,7 @@ class Point {
     return this.x === point.x && this.y === point.y;
   }
 
-  draw(ctx, { size = 5, color = black } = {}) {
+  draw(ctx, { size = 5, color = "black" } = {}) {
     const rad = size / 2;
     ctx.beginPath();
     ctx.fillStyle = color;
